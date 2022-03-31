@@ -1,0 +1,15 @@
+{
+  "name": "portfolio_project",
+  "version": "1.0.0",
+  "description": "Responive portfolio",
+  "main": "index.js",
+  "scripts": {
+
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Anurag",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
