@@ -6,6 +6,13 @@ $show-home-image: true;
 $home-image: url('img/bg.jpg');
 $background-opacity: 0.5;
 
+
+@mixin mediaXl{
+    @media screen and (min-width: 1171px)  {
+        @content;   
+    }   
+}
+
 @mixin mediaSm {
     @media screen and (max-width: 500px) {
         @content;   
@@ -18,11 +25,6 @@ $background-opacity: 0.5;
 }
 @mixin mediaLg {
     @media screen and (min-width: 769px) and (max-width: 1170px) {
-        @content;   
-    }   
-}
-@mixin mediaXl{
-    @media screen and (min-width: 1171px)  {
         @content;   
     }   
 }
@@ -151,6 +153,50 @@ a{
         border-bottom: $secondary-color 5px solid;
     }
 }
+
+// scss for Work.html page--
+.projects{
+    display: grid;
+    grid-gap: 3rem;
+    grid-template-columns: repeat(3,1fr);
+
+    img{
+        width: 100%;
+        border: 3px rgb(193, 151, 151) solid;
+        &:hover{
+            opacity: 0.5;
+            border-color: $secondary-color;
+            @include easeOut();
+        }
+    }
+}
+.btn{
+    display: block;
+    padding: 0.5rem 1rem;
+    border: 0;
+    margin-bottom: 0.3rem;
+    &:hover{
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+    }
+}
+    .btn-dark{
+        @extend .btn;
+        background: darken($primar-color, 50);
+        color: rgb(124, 176, 87);
+    }
+    .btn-light{
+        @extend .btn;
+        background: lighten($primar-color, 50);
+        color: #333;
+    }
+
+
+
+
+
+
+
 #main-footer{
     text-align: center;
     padding: 1rem;
