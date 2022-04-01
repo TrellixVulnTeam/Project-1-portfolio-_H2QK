@@ -3,7 +3,7 @@
 $primar-color: #444;
 $secondary-color: rgb(186, 186, 40);
 $show-home-image: true;
-$home-image: url('../img/bg.jpg');
+ $home-image: url('../img/bg3.jpg');
 $background-opacity: 0.5;
 
 
@@ -131,7 +131,7 @@ a{
     .bio-image{
         grid-area: bioimage;
         margin: auto;
-        border-radius: 20%;
+        border-radius: 50%;
         border: $secondary-color 3px solid; 
     }
     
