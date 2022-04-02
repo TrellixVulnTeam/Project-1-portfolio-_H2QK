@@ -3,7 +3,7 @@
 $primar-color: #444;
 $secondary-color: rgb(186, 186, 40);
 $show-home-image: true;
- $home-image: url('../img/bg3.jpg');
+ $home-image: url('../img/bg.jpg');
 $background-opacity: 0.5;
 
 
@@ -224,11 +224,27 @@ a{
         @extend .btn;
         background: lighten($primar-color, 50);
         color: #333;
+
+        
     }
 
 
 
 
+// download cv button
+.download{
+    margin-top: 0.3rem;
+    display: inline-flex;
+    padding: 0.5rem;
+    background: darken($primar-color,50);
+    &:hover{
+        background: $secondary-color;
+        color: set-text-color($secondary-color);
+     @include easeOut();
+    }
+
+
+}
 
 
 

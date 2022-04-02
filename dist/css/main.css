@@ -9,7 +9,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../img/bg3.jpg");
+    background: url("../img/bg.jpg");
     background-attachment: fixed;
     background-size: cover; }
   body::after {
@@ -135,6 +135,16 @@ main {
 .btn-light {
   background: #c4c4c4;
   color: #333; }
+
+.download {
+  margin-top: 0.3rem;
+  display: inline-flex;
+  padding: 0.5rem;
+  background: black; }
+  .download:hover {
+    background: #baba28;
+    color: set-text-color(#baba28);
+    transition: all 0.5s ease-out; }
 
 #main-footer {
   text-align: center;
