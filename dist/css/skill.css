@@ -99,6 +99,11 @@ transform: scale(1.1);
     background: linear-gradient(45deg,#96ac45,#5b23bc);
 }
 
+/* body#bg3-img {
+    background: url("../img/bg3.jpg");
+    background-attachment: fixed;
+    background-size: cover; 
+} */
 
 
 

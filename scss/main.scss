@@ -168,7 +168,7 @@ a{
             opacity: 1.5;
             border-color: $secondary-color;
             // transform: translate3d(0,-50%,0);
-          transform: translate3d(0,-20%,0);
+          transform: scale(1.5);
           
           @include easeOut();
 
