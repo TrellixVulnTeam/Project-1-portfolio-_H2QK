@@ -63,6 +63,9 @@
 }
 //smartphone
 @include mediaSm{
+    .container .skills{
+        width:50% ;
+    }
     main#home h1 {
 
 margin-top: 10vh;
