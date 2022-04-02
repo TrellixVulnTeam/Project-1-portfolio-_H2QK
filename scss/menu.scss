@@ -116,9 +116,11 @@ color: $secondary-color;
        font-weight: 300;
        color: aliceblue;
        text-decoration: none;
+  
        @include easeOut();
 
-       &:hover{
+       &:hover,&:focus
+       {
            color: $secondary-color;
        }
 

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/type.css">
     <title>Portfolio</title>
 </head>
 <body id="bg-img">
@@ -19,32 +20,39 @@
             </div>    
         </div>
         <ul class="menu-nav">
-<li class="nav-item current"><a href="dist/index.html" class="nav-link">Home</a></li>
-<li class="nav-item"><a href="about_me.html" class="nav-link">About Me</a></li>
+<li class="nav-item current"><a href="dist/index.html" class="nav-link">Home <i href="dist/index.html" class="fas fa-home fa-beat-fade"></i>  </a></li>
+<li class="nav-item"><a href="about_me.html" class="nav-link">About Me </a></li>
 <li class="nav-item"><a href="work.html" class="nav-link">My Work</a></li>
-<li class="nav-item"><a href="contact.html" class="nav-link">Contact </a></li>
+<li class="nav-item"><a href="contact.html" class="nav-link">Contact <i class="fas fa-contact"></i> </a></li>
         </ul>
     </nav>
 </header>
 <main id="home">
-<h1 class="lg-heading">Anurag</h1>
-<h2 class="sm-heading">Programmer, Learner & <span class="text-secondary">Web Developer</span> </h2>
+    <h1 class="lg-heading">Anurag</h1>
+<div class="container">
+    <h2 ><span class="fix">I'm A </span> 
+      <span class="txt-type " data-wait="3000" data-words='["Developer", "Programmer", "YouTuber", "Learner"]'></span>
+    </h2>
+  </div>
+<!-- <h2 class="sm-heading" style="display: inline-block;">Programmer, Learner & <span class="text-secondary">Web Developer</span> </h2> -->
 <div class="icon">
-    <a href="#!"> <i class="fab fa-twitter fa-2x"></i> </a>
-    <a href="#!"> <i class="fab fa-facebook fa-2x"></i> </a>
-    <a href="#!"> <i class="fab fa-linkedin fa-2x"></i> </a>
-    <a href="#!"> <i class="fab fa-github fa-2x"></i> </a>
+     <a href="#!"> <i class="fab fa-twitter fa-beat-fade  fa-2x" style="--fa-beat-fade-opacity: 0.87; --fa-beat-fade-scale: 1.075;"></i> </a> 
+   
+    <a href="#!"> <i class="fab fa-facebook fa-beat-fade  fa-2x"style="--fa-beat-fade-opacity: 0.87; --fa-beat-fade-scale: 1.075;"></i> </a>
+    <a href="#!"> <i class="fab fa-linkedin  fa-beat-fade fa-2x" style="--fa-beat-fade-opacity: 0.87; --fa-beat-fade-scale: 1.075;"></i> </a>
+    <a href="https://github.com/nigdifg" target="_blank"> <i class="fab fa-github fa-beat-fade fa-2x" style="--fa-beat-fade-opacity: 0.87; --fa-beat-fade-scale: 1.075;"></i> </a>
 </div>
-<br><br>
+<br>
 <div class="download">
-<a type="button" href="cv.pdf">
+<a type="button" href="cv.pdf" target="_blank">
     Download CV
-<i class="fas fa-download"></i>
+<i class="fas fa-download fa-bounce"></i>
 </a>
 
 </div>
 </main>
 <script src="js/main.js"></script>
+<script src="js/type.js"></script>
 <script src="js/fontawsm.js"></script>
 </body>
 </html>

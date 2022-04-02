@@ -75,7 +75,7 @@
     color: aliceblue;
     text-decoration: none;
     transition: all 0.5s ease-out; }
-    .menu .nav-link:hover {
+    .menu .nav-link:hover, .menu .nav-link:focus {
       color: yellow; }
 
 .nav-item:nth-child(1) {
